@@ -1,0 +1,99 @@
+# --- Python / uv ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+uv.lock
+dist/
+build/
+*.egg-info/
+
+# --- Ada ---
+*.ali
+*.o
+*.exe
+*.gpr
+b__*
+
+# --- Prolog ---
+*.qlf
+
+# --- C / C++ ---
+# Objetos y binarios
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.out
+*.exe
+a.out
+
+# Archivos de depuración y profiling
+*.dSYM/
+*.d
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.pdb
+
+# Archivos temporales de compiladores
+*.pch
+*.pchi
+*.chi
+*.mod
+*.smod
+*.lst
+*.map
+
+# Metadata de proyectos C/C++
+*.user
+*.workspace
+*.layout
+*.depend
+*.idb
+*.pdb
+*.ncb
+*.opendb
+*.VC.db
+*.VC.opendb
+*.suo
+*.sdf
+
+# --- Build systems ---
+build/
+bin/
+obj/
+lib/
+*.log
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+!*/Makefile  # mantiene Makefiles fuente
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*/data/*.csv
+*/data/*.tsv
+*/data/*.xlsx
+
+# --- IDEs / Editores ---
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+.history/
+.code-workspace
+
+# --- Otros ---
+.DS_Store
+Thumbs.db
